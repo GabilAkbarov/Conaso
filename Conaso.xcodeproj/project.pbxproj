@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0A2A142439455E006AAD20 /* PrinterSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A2A132439455E006AAD20 /* PrinterSelection.swift */; };
+		AC2BD07024359C000030BD42 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BD06F24359C000030BD42 /* SignUpViewController.swift */; };
+		AC4C307A243A92D6008EA502 /* CheckPrinterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C3079243A92D6008EA502 /* CheckPrinterStatus.swift */; };
+		AC4C307C243A93AC008EA502 /* IsPrinterSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C307B243A93AC008EA502 /* IsPrinterSelected.swift */; };
+		AC4C307E243A93D6008EA502 /* DeactivateSelectedSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C307D243A93D6008EA502 /* DeactivateSelectedSwitch.swift */; };
+		AC4C3080243A93FB008EA502 /* ShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C307F243A93FB008EA502 /* ShowHideView.swift */; };
+		AC4C3082243A9F1E008EA502 /* TroubleshootButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C3081243A9F1E008EA502 /* TroubleshootButton.swift */; };
+		AC4D36F22437004900A401FC /* SelectPrinterModelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D36F12437004900A401FC /* SelectPrinterModelStyle.swift */; };
+		AC4D36F4243701D600A401FC /* SelectPrinterFormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D36F3243701D600A401FC /* SelectPrinterFormatStyle.swift */; };
+		AC4D36F62437020B00A401FC /* SelectPrinterErrorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D36F52437020B00A401FC /* SelectPrinterErrorStyle.swift */; };
+		AC71F5FB243459B0001A4584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71F5FA243459B0001A4584 /* AppDelegate.swift */; };
+		AC71F5FD243459B0001A4584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71F5FC243459B0001A4584 /* SceneDelegate.swift */; };
+		AC71F5FF243459B0001A4584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71F5FE243459B0001A4584 /* ViewController.swift */; };
+		AC71F602243459B0001A4584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC71F600243459B0001A4584 /* Main.storyboard */; };
+		AC71F604243459B1001A4584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC71F603243459B1001A4584 /* Assets.xcassets */; };
+		AC71F607243459B1001A4584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC71F605243459B1001A4584 /* LaunchScreen.storyboard */; };
+		ACEC155324380F870082AE12 /* TroubleshootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC155224380F870082AE12 /* TroubleshootViewController.swift */; };
+		ACF7ED2824351F0B00AB390C /* CustomSFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7ED2724351F0B00AB390C /* CustomSFButton.swift */; };
+		ACFD1B0D24369B1E002257C5 /* CustomSFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B0C24369B1E002257C5 /* CustomSFView.swift */; };
+		ACFD1B0F2436A26D002257C5 /* PrinterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B0E2436A26D002257C5 /* PrinterModel.swift */; };
+		ACFD1B112436A28B002257C5 /* PrinterModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B102436A28B002257C5 /* PrinterModelData.swift */; };
+		ACFD1B132436A2DB002257C5 /* PrinterFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B122436A2DB002257C5 /* PrinterFormat.swift */; };
+		ACFD1B152436A2ED002257C5 /* PrinterFormatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B142436A2ED002257C5 /* PrinterFormatData.swift */; };
+		ACFD1B172436A348002257C5 /* PrinterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B162436A348002257C5 /* PrinterError.swift */; };
+		ACFD1B192436A35F002257C5 /* PrinterErrorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B182436A35F002257C5 /* PrinterErrorData.swift */; };
+		ACFD1B1B2436B75C002257C5 /* PrinterModelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B1A2436B75C002257C5 /* PrinterModelPicker.swift */; };
+		ACFD1B1D2436BA98002257C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B1C2436BA98002257C5 /* LoginViewController.swift */; };
+		ACFD1B1F2436C055002257C5 /* PrinterFormatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B1E2436C055002257C5 /* PrinterFormatPicker.swift */; };
+		ACFD1B212436C06F002257C5 /* PrinterErrorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD1B202436C06F002257C5 /* PrinterErrorPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0A2A132439455E006AAD20 /* PrinterSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterSelection.swift; sourceTree = "<group>"; };
+		AC2BD06F24359C000030BD42 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AC4C3079243A92D6008EA502 /* CheckPrinterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPrinterStatus.swift; sourceTree = "<group>"; };
+		AC4C307B243A93AC008EA502 /* IsPrinterSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPrinterSelected.swift; sourceTree = "<group>"; };
+		AC4C307D243A93D6008EA502 /* DeactivateSelectedSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeactivateSelectedSwitch.swift; sourceTree = "<group>"; };
+		AC4C307F243A93FB008EA502 /* ShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideView.swift; sourceTree = "<group>"; };
+		AC4C3081243A9F1E008EA502 /* TroubleshootButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleshootButton.swift; sourceTree = "<group>"; };
+		AC4D36F12437004900A401FC /* SelectPrinterModelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPrinterModelStyle.swift; sourceTree = "<group>"; };
+		AC4D36F3243701D600A401FC /* SelectPrinterFormatStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPrinterFormatStyle.swift; sourceTree = "<group>"; };
+		AC4D36F52437020B00A401FC /* SelectPrinterErrorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPrinterErrorStyle.swift; sourceTree = "<group>"; };
+		AC71F5F7243459B0001A4584 /* Conaso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conaso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC71F5FA243459B0001A4584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC71F5FC243459B0001A4584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC71F5FE243459B0001A4584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC71F601243459B0001A4584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC71F603243459B1001A4584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC71F606243459B1001A4584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC71F608243459B1001A4584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEC155224380F870082AE12 /* TroubleshootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleshootViewController.swift; sourceTree = "<group>"; };
+		ACF7ED2724351F0B00AB390C /* CustomSFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSFButton.swift; sourceTree = "<group>"; };
+		ACFD1B0C24369B1E002257C5 /* CustomSFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSFView.swift; sourceTree = "<group>"; };
+		ACFD1B0E2436A26D002257C5 /* PrinterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterModel.swift; sourceTree = "<group>"; };
+		ACFD1B102436A28B002257C5 /* PrinterModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterModelData.swift; sourceTree = "<group>"; };
+		ACFD1B122436A2DB002257C5 /* PrinterFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterFormat.swift; sourceTree = "<group>"; };
+		ACFD1B142436A2ED002257C5 /* PrinterFormatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterFormatData.swift; sourceTree = "<group>"; };
+		ACFD1B162436A348002257C5 /* PrinterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterError.swift; sourceTree = "<group>"; };
+		ACFD1B182436A35F002257C5 /* PrinterErrorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrorData.swift; sourceTree = "<group>"; };
+		ACFD1B1A2436B75C002257C5 /* PrinterModelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterModelPicker.swift; sourceTree = "<group>"; };
+		ACFD1B1C2436BA98002257C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACFD1B1E2436C055002257C5 /* PrinterFormatPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterFormatPicker.swift; sourceTree = "<group>"; };
+		ACFD1B202436C06F002257C5 /* PrinterErrorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterErrorPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC71F5F4243459B0001A4584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2BD06C24359B940030BD42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC71F5FA243459B0001A4584 /* AppDelegate.swift */,
+				AC71F5FC243459B0001A4584 /* SceneDelegate.swift */,
+				AC71F5FE243459B0001A4584 /* ViewController.swift */,
+				AC2BD06F24359C000030BD42 /* SignUpViewController.swift */,
+				ACFD1B1C2436BA98002257C5 /* LoginViewController.swift */,
+				ACEC155224380F870082AE12 /* TroubleshootViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC2BD06D24359BAA0030BD42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC71F600243459B0001A4584 /* Main.storyboard */,
+				AC71F603243459B1001A4584 /* Assets.xcassets */,
+				ACFD1B1A2436B75C002257C5 /* PrinterModelPicker.swift */,
+				ACFD1B1E2436C055002257C5 /* PrinterFormatPicker.swift */,
+				ACFD1B202436C06F002257C5 /* PrinterErrorPicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC2BD06E24359BBF0030BD42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD1B0E2436A26D002257C5 /* PrinterModel.swift */,
+				ACFD1B102436A28B002257C5 /* PrinterModelData.swift */,
+				ACFD1B122436A2DB002257C5 /* PrinterFormat.swift */,
+				ACFD1B142436A2ED002257C5 /* PrinterFormatData.swift */,
+				ACFD1B162436A348002257C5 /* PrinterError.swift */,
+				ACFD1B182436A35F002257C5 /* PrinterErrorData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC5BC0052435022A002DD90B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACF7ED2724351F0B00AB390C /* CustomSFButton.swift */,
+				ACFD1B0C24369B1E002257C5 /* CustomSFView.swift */,
+				AC4D36F12437004900A401FC /* SelectPrinterModelStyle.swift */,
+				AC4D36F3243701D600A401FC /* SelectPrinterFormatStyle.swift */,
+				AC4D36F52437020B00A401FC /* SelectPrinterErrorStyle.swift */,
+				AC0A2A132439455E006AAD20 /* PrinterSelection.swift */,
+				AC4C3079243A92D6008EA502 /* CheckPrinterStatus.swift */,
+				AC4C307B243A93AC008EA502 /* IsPrinterSelected.swift */,
+				AC4C307D243A93D6008EA502 /* DeactivateSelectedSwitch.swift */,
+				AC4C307F243A93FB008EA502 /* ShowHideView.swift */,
+				AC4C3081243A9F1E008EA502 /* TroubleshootButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC71F5EE243459B0001A4584 = {
+			isa = PBXGroup;
+			children = (
+				AC71F5F9243459B0001A4584 /* Conaso */,
+				AC71F5F8243459B0001A4584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC71F5F8243459B0001A4584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC71F5F7243459B0001A4584 /* Conaso.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC71F5F9243459B0001A4584 /* Conaso */ = {
+			isa = PBXGroup;
+			children = (
+				AC2BD06E24359BBF0030BD42 /* Model */,
+				AC2BD06D24359BAA0030BD42 /* View */,
+				AC2BD06C24359B940030BD42 /* Controller */,
+				AC5BC0052435022A002DD90B /* Extensions */,
+				AC71F605243459B1001A4584 /* LaunchScreen.storyboard */,
+				AC71F608243459B1001A4584 /* Info.plist */,
+			);
+			name = Conaso;
+			path = Conaso;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC71F5F6243459B0001A4584 /* Conaso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC71F60B243459B1001A4584 /* Build configuration list for PBXNativeTarget "Conaso" */;
+			buildPhases = (
+				AC71F5F3243459B0001A4584 /* Sources */,
+				AC71F5F4243459B0001A4584 /* Frameworks */,
+				AC71F5F5243459B0001A4584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conaso;
+			productName = Conaso;
+			productReference = AC71F5F7243459B0001A4584 /* Conaso.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC71F5EF243459B0001A4584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Gabil;
+				TargetAttributes = {
+					AC71F5F6243459B0001A4584 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = AC71F5F2243459B0001A4584 /* Build configuration list for PBXProject "Conaso" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC71F5EE243459B0001A4584;
+			productRefGroup = AC71F5F8243459B0001A4584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC71F5F6243459B0001A4584 /* Conaso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC71F5F5243459B0001A4584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC71F607243459B1001A4584 /* LaunchScreen.storyboard in Resources */,
+				AC71F604243459B1001A4584 /* Assets.xcassets in Resources */,
+				AC71F602243459B0001A4584 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC71F5F3243459B0001A4584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFD1B1D2436BA98002257C5 /* LoginViewController.swift in Sources */,
+				ACFD1B112436A28B002257C5 /* PrinterModelData.swift in Sources */,
+				ACFD1B1B2436B75C002257C5 /* PrinterModelPicker.swift in Sources */,
+				ACFD1B132436A2DB002257C5 /* PrinterFormat.swift in Sources */,
+				AC4D36F22437004900A401FC /* SelectPrinterModelStyle.swift in Sources */,
+				AC71F5FF243459B0001A4584 /* ViewController.swift in Sources */,
+				ACFD1B172436A348002257C5 /* PrinterError.swift in Sources */,
+				ACFD1B152436A2ED002257C5 /* PrinterFormatData.swift in Sources */,
+				ACFD1B0F2436A26D002257C5 /* PrinterModel.swift in Sources */,
+				AC4D36F62437020B00A401FC /* SelectPrinterErrorStyle.swift in Sources */,
+				AC71F5FB243459B0001A4584 /* AppDelegate.swift in Sources */,
+				AC71F5FD243459B0001A4584 /* SceneDelegate.swift in Sources */,
+				ACEC155324380F870082AE12 /* TroubleshootViewController.swift in Sources */,
+				ACF7ED2824351F0B00AB390C /* CustomSFButton.swift in Sources */,
+				AC4C307E243A93D6008EA502 /* DeactivateSelectedSwitch.swift in Sources */,
+				ACFD1B192436A35F002257C5 /* PrinterErrorData.swift in Sources */,
+				AC4C307A243A92D6008EA502 /* CheckPrinterStatus.swift in Sources */,
+				AC4D36F4243701D600A401FC /* SelectPrinterFormatStyle.swift in Sources */,
+				ACFD1B0D24369B1E002257C5 /* CustomSFView.swift in Sources */,
+				ACFD1B1F2436C055002257C5 /* PrinterFormatPicker.swift in Sources */,
+				AC0A2A142439455E006AAD20 /* PrinterSelection.swift in Sources */,
+				AC4C3082243A9F1E008EA502 /* TroubleshootButton.swift in Sources */,
+				AC4C3080243A93FB008EA502 /* ShowHideView.swift in Sources */,
+				AC2BD07024359C000030BD42 /* SignUpViewController.swift in Sources */,
+				ACFD1B212436C06F002257C5 /* PrinterErrorPicker.swift in Sources */,
+				AC4C307C243A93AC008EA502 /* IsPrinterSelected.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC71F600243459B0001A4584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC71F601243459B0001A4584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC71F605243459B1001A4584 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC71F606243459B1001A4584 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC71F609243459B1001A4584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC71F60A243459B1001A4584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC71F60C243459B1001A4584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Conaso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabil.Conaso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC71F60D243459B1001A4584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Conaso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabil.Conaso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC71F5F2243459B0001A4584 /* Build configuration list for PBXProject "Conaso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC71F609243459B1001A4584 /* Debug */,
+				AC71F60A243459B1001A4584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC71F60B243459B1001A4584 /* Build configuration list for PBXNativeTarget "Conaso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC71F60C243459B1001A4584 /* Debug */,
+				AC71F60D243459B1001A4584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC71F5EF243459B0001A4584 /* Project object */;
+}
